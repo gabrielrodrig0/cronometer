@@ -1,0 +1,72 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  body{
+      background-color: rgb(27, 26, 26);
+  }
+  
+  .container {
+    
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    background-color: black;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .nome {
+    display: flex;
+    justify-content: center;
+  }
+  .title {
+    font-size: 30px;
+    font-family: Helvetica;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  span {
+    color: white;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+  }
+  
+  #relogio {
+    display: flex; 
+    justify-content: center;
+  }
+  .botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+  }
+  
+  #iniciar, #parar, #reset {
+    
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  /*hover*/
+
+  #iniciar:hover, #parar:hover, #reset:hover {
+    color:white;
+    background-color: rgb(27, 26, 26);
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+
+
